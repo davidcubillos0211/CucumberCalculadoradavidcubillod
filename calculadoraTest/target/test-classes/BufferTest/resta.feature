@@ -12,11 +12,8 @@ Feature: probar la resta
 
     Examples:   
       | n1    | n2    | n3  |
-      | 1 		|     12 | -11 |
-      | 0    	| 	 -1 | 1  |
+      | 1 		|    12 | -11 |
+      | 0    	| 	 -1 | 1   |
 
       
-        Scenario: overflow check
-    Given tengo el Minimo doble
-    Whenle quiero restar 1
-    Then deberia saltar un error
+    
